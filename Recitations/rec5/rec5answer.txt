@@ -1,0 +1,2 @@
+One concept that I still struggle with a little bit is determining a functions time complexity. I understand how the complexity is often determined by the 
+number of nested loops, and how many times a loop may be run through.

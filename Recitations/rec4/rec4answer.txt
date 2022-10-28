@@ -1,0 +1,18 @@
+Part 1:
+
+I would choose a dynamic array to store the log entries for the robot. I would choose this data structure because it is faster to access the elements
+and it is also faster to free the memory since you are only deleting a single element, rather than two different void pointers which you would have to do for a 
+linked list. Over time, it will also become easier to insert more and more data because we double the capacity each time size=capacity. With an array you can directly
+access any element in the array, and with a linked list you have to iterate through which just eats time.   Also, when you delete an element in the array, you are just deleting
+the physical index, and not the logical so you dont have to reallocate that array storage until the program is done running.
+
+Part 4:
+
+The resizing strategy that was fastes was strategy 3 where I tripled capacity.
+The slowest was number 1. Whenever I tried adding capacity then it was grossly slowe
+and a waste of time. I think they behaved the way they did because of how many times
+would have to iterate. The tradeoffs of using different strategies is slower ones use data more efficiently
+but run very slow for large data input. Fast ones might be a little wasteful but well.. they're fast.
+I think doubling the array is the most common because it is the fastest and the most effiecient use of
+memory. It grows exponentially but in a slower fashion. I think the first two are O(nlog) and the third one I used was 0(1).
+ 

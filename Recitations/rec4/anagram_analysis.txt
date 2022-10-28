@@ -1,0 +1,2 @@
+The time complexity of my anagram check function is O(n). The arrays are not being sorted but they are being checked if they have the same occurance of letters 
+and a counter for the occurances is being returned and compared against the result of the other arrays counter. This makes the program faster
